@@ -176,7 +176,7 @@ def find_positive_ev_bets(df):
 
 #cycle through games today and output sorted df
 def main():
-    API_KEY = "72f975515f75626b533a11b8354015e6"
+    API_KEY = ""
     books = ["pinnacle", "fanduel"]
     prop_type = "points" #points, rebounds, assists
     df_list = []
